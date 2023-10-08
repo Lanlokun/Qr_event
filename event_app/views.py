@@ -154,3 +154,4 @@ def redeem_coupon(request, coupon_id):
     coupon.save()
     
     return JsonResponse({'message': 'Coupon redeemed successfully.'})
+
